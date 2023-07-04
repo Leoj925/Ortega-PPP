@@ -1,6 +1,7 @@
 # PPP-Padel Para Picantes
 ## Sobre Nosotros
 ***Bienvenidxs a PPP - Padel Para Picantes***
+
 Somos apasionados por el padel, igual que vos! Te ofrecemos una amplia selección productos, desde paletas, cubregrips, bolsos paleteros funcionales y todos los accesorios que necesitas para disfrutar al máximo de este apasionante deporte.
 
 Sabemos que cada jugador tiene sus preferencias y necesidades únicas, por lo que nos esforzamos por proporcionarte una variedad de marcas, modelos y estilos para que encuentres el equipamiento perfecto que se adapte a tu juego.
