@@ -1,3 +1,10 @@
 @import url("https://fonts.google.com/specimen/DM+Sans");
 
 *{font-family: "DM Sans";}
+
+:root {
+    --primary: #1E1E1E;
+    --secondary: #041989;
+}
+
+.banner{ background-color: var(--secondary);}
