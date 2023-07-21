@@ -18,41 +18,54 @@
             </a>
         </div>
     </header>
-    <main>
-        <div class="Hero-banner">
-            <img src="./imagenes png/Banner_1_PALAS.webp" alt="palas" class="imagenHero" />
+    <main class="cart">
+        <div class="superior">
+            <h2 class="carrito">Carrito</h2>
+            <a href="#" id="borraTodo">Borrar Todo</a>
         </div>
-        <div class="productos">
-            <h2 class="tituloProductos">
-                Productos
-            </h2>
-            <article class="Articulo">
+        <div class="carrito">
+            <article class="articuloCart">
                 <img src="./imagenes png/adidas metalbone.png" alt="imagen de articulo" class="imagenPaleta" />
                 <h5 class="nombrePaleta">Adidas Metalbone HRD 3.2</h5>
-                <div class="stockPrecio">
-                    <p class="stock">Stock:XX</p>
+                <div class="agregaQuita">
+                    <button class="quita">-</button>
+                    <h6 class="cantidad">1</h6>
+                    <button class="agrega">+</button>
+                </div>
+                <div class="precioCart">
                     <p class="precio">$123456</p>
                 </div>
+                <div class="borraArticulo">
+                    <a href="#" class="button" id="botonBorrar">
+                        <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
+                    </a>
+                </div>
             </article>
-            <div class="botonera">
-                <a href="#" class="botonCompra">
-                    <img src="./imagenes png/cart.png" alt="cart" width="15" height="15"></a>
-                <a href="#" class="botonCompra">Mas</a>
-            </div>
-            <article class="Articulo">
+            
+            <article class="articuloCart">
                 <img src="./imagenes png/pack-at2-genius-ltd-2023-agustin-tapia-limited-edition-992684.webp"
                     alt="imagen de articulo" class="imagenPaleta" />
                 <h5 class="nombrePaleta">Nox AT.2 Genius LTD 2023</h5>
-                <div class="stockPrecio">
-                    <p class="stock">Stock:XX</p>
+                <div class="agregaQuita">
+                    <button class="quita">-</button>
+                    <h6 class="cantidad">1</h6>
+                    <button class="agrega">+</button>
+                </div>
+                <div class="precioCart">
                     <p class="precio">$123456</p>
                 </div>
+                <div class="borraArticulo">
+                    <a href="#" class="button" id="botonBorrar">
+                        <img src="./imagenes png/trashbin.png" alt:"Trash" width="40" height="40" />
+                    </a>
+                </div>
             </article>
-            <div class="botonera">
-                <a href="#" class="botonCompra">
-                    <img src="./imagenes png/cart.png" alt="cart" width="15" height="15"></a>
-                <a href="#" class="botonCompra">Mas</a>
-            </div>
+        </div>
+        <div class="total">
+            <h4>Total $123456</h4>
+        </div>
+        <div class="pagar">
+            <button class="botonPagar">Comprar Ahora</button>
         </div>
     </main>
     <footer>
@@ -80,7 +93,6 @@
             </a>
         </div>
     </footer>
-
 </body>
 
 </html>
