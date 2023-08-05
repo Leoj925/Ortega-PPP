@@ -40,6 +40,7 @@ main {
 .login{
     font-family: "Prosto One";
     color: #DFFF4F;
+    font-size: larger;
 }
 
 .formulario{
@@ -57,11 +58,7 @@ main {
     margin-top: 5px
 }
 
-.userName{
-    margin-bottom: 5px;
-}
-
-.password{
+.item{
     margin-bottom: 5px;
     margin-top: 5px;
 }

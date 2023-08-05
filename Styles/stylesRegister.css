@@ -29,15 +29,35 @@ header {
     padding: 0px 10px;
 }
 
+.register{
+    font-family: "Prosto One";
+    color: #DFFF4F;
+    font-size: larger;
+}
+
 main {
     max-width: 100%;
     background-color: #161c3f;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: "Prosto One";
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 3%;
+}
 
+.item{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
 
 

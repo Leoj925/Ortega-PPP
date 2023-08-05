@@ -21,9 +21,9 @@ Gracias por elegirnos como tu tienda de confianza para todos tus productos de pa
 ## Publico Objetivo
 El ecommerce esta orientado al público en general, sin importar el nivel de juego o el presupuesto que tengan lxs clientes
 ## Tipografias
-DM Sans
+DM Sans, Prosto One
 ## Paleta de Colores
-`#041989`, `#DFFF4F`, `#FFFFFF`
+`#041989`, `#DFFF4F`, `#FFFFFF`, `#d9d9d9`
 ## logo
 ![Logo](./imagenes%20png/image.png)
 ## link de FIGMA
