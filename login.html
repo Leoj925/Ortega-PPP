@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <link rel="stylesheet" type="text/CSS" href="./Styles/stylesProdDetail.css" />
-    <title>Detalles</title>
-</head>
+    <head>
+        <link rel="stylesheet" type="text/CSS" href="./Styles/stylesLogin.css" />
+        <title>Login</title>
+    </head>
 
-<body>
     <header class="banner">
         <div class="logoHead">
             <a href="#" class="button">
@@ -19,33 +18,33 @@
             </a>
         </div>
     </header>
-    <main class="detail">
-        <section class="productoElegido">
-            <div class="imagenesElegido">
-                <img src="./imagenes png/adidas metalbone.png" alt="main" class="mainImage" width="200" height="200"/>
-                <div class="sideImages">
-                    <img src="./imagenes png/adidas-metalbone-side.png" alt="side" class="side1" width="100" height="100"/>
-                    <img src="./imagenes png/adidas-metalbone-zoom.png" alt="zoom" class="side2" width="100" height="100"/>
+    <main>
+        <body>
+            <h1 class="login">Login</h1>
+            <form class="formulario">
+                <label for="userName" class="userName">Nombre de Usuario</label>
+                <input type="text" id="userName" placeholder="Ingrese nombre de usuario">
+                <label for="password" class="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingrese su contraseña">
+                <div class="checkboxContainer">
+                    <label for="rememberUser">Recordar usuario</label>
+                    <input type="checkbox" id="rememberUser">
                 </div>
+                <div class="checkboxContainer">
+                    <label for="stayLogged">Mantenerse logueado</label>
+                    <input type="checkbox" id="stayLogged">
+                </div>
+            </form>
+            <button type="submit">Ingresar</button>
+            <div class="olvideRegistrar">
+                <h5 class="olvide">Olvide mi contraseña</h5>
+                <h5 class="registrar">Registrarse</h5>
             </div>
-        </section>
-        <section class="description">
-            <div class="descr1">
-                <p>Marca de la paleta:</p>
-                <p>Peso:</p>
-                <p>Forma:</p>
-            </div>
-            <div class="descr2">
-                <p>Nivel de la paleta:</p>
-                <p>Balance:</p>
-                <p class="precio">Precio: $123456</p>
-            </div>
-        </section>
-        <section class="botonera">
-            <a href="#" class="botonCompra">
-                <img src="./imagenes png/cart.png" alt="cart" width="15" height="15"></a>
-        </section>
+
+
+        </body>
     </main>
+
     <footer>
         <div class="logoFooter">
             <a href="#" class="button">
@@ -71,6 +70,5 @@
             </a>
         </div>
     </footer>
-</body>
 
 </html>
